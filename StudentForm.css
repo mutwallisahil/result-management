@@ -1,0 +1,161 @@
+
+/* student form page */
+
+.student-form-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* form box */
+
+
+.form-box {
+    width: 100%;
+    max-width: 750px;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow:
+        0 12px 35px
+        rgba(0, 0, 0, 0.25);
+}
+
+
+/* title */
+
+.form-box h1 {
+    text-align: center;
+    color: #5b2c83;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.form-box h3 {
+    text-align: center;
+    color: #667eea;
+    margin-bottom: 30px;
+}
+
+/* form */
+
+.form-box form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+
+/* inputs */
+
+.form-box input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+.form-box input:focus {
+    border-color: #667eea;
+    box-shadow:
+        0 0 5px
+        rgba(102, 126, 234, 0.3);
+}
+
+
+/* add student button */
+
+
+.form-box form button {
+    grid-column: 1 / -1;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.form-box form button:hover {
+    background: #5b2c83;
+}
+
+
+/* back button */
+
+.back-button {
+    margin-top: 20px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #555 !important;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.back-button:hover {
+    background: #333 !important;
+}
+
+
+/* result button */
+
+
+.result-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #27ae60 !important;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.result-button:hover {
+    background: #219150 !important;
+}
+
+
+/* ============================= */
+/* MOBILE */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+    .form-box {
+        padding: 25px;
+    }
+
+
+    .form-box form {
+        grid-template-columns: 1fr;
+    }
+
+
+    .form-box form button {
+        grid-column: auto;
+    }
+
+
+    .back-button,
+    .result-button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+}

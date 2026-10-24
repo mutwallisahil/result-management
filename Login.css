@@ -1,0 +1,91 @@
+
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.college-name {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.college-name h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.college-name p {
+    font-size: 18px;
+}
+
+
+.login-box {
+    width: 380px;
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #5b2c83;
+    margin-bottom: 25px;
+}
+
+
+.login-box input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+.login-box input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+
+.login-box button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.login-box button:hover {
+    transform: scale(1.02);
+}
+
+
+.login-info {
+    margin-top: 20px;
+    text-align: center;
+    background: #f3f4ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-info p {
+    margin: 5px;
+    color: #555;
+}
+

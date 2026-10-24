@@ -1,0 +1,67 @@
+.result-list-page {
+    min-height: 100vh;
+    background: #f4f6f8;
+}
+
+
+.result-list-header {
+    background: #8d66d6be;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.result-list-header button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.result-list-container {
+    padding: 40px;
+    overflow-x: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+
+th,td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+th {
+    background: #222;
+    color: white;
+}
+
+
+.student-name {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    color:blue;
+}
+
+
+.delete-button {
+    background: #d33;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}

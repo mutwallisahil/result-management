@@ -1,0 +1,100 @@
+/* trade selection */
+
+.trade-container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+.trade-container h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+
+.trade-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+.trade-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+.trade-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+
+.trade-icon {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.trade-icon > img{
+    width: 100px;
+}
+
+
+.trade-card h3 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 21px;
+}
+
+
+.trade-card p {
+    color: #777;
+}
+
+
+.computer {
+    border-top: 6px solid #3498db;
+}
+
+
+.aiml {
+    border-top: 6px solid #9b59b6;
+}
+
+.elec {
+    border-top: 6px solid #e67e22;
+}
+
+.civil {
+    border-top: 6px solid #22e63c;
+}
+
+
+/* back button */
+
+.back-button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #333;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+}
+
+
